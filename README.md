@@ -66,7 +66,7 @@ flowchart TD
 ## Install  
    - **From GitHub:**  
      ```bash
-     pip install git+https://github.com/rezuanurdip/semantic-sense.git
+     pip install git+https://github.com/rezuanurdip/semantic_sense.git
      ```
    - **From PyPI:**  
      ```bash
