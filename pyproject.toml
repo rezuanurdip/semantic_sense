@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic_sense"
+version = "0.1.1"
+description = "Hybrid semantic anomaly detector: row text embeddings + scaled numeric features."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name="Rezuanur Rahman Dip", email="rezuanur99@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "scikit-learn>=1.2",
+  "sentence-transformers>=2.2"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"semantic_sense" = ["models/**"]

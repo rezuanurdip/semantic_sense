@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# pytest cache
+.pytest_cache/
+
+# Virtual environments
+venv/
+
+# IDE/editor files
+*.swp
+*.swo
+*.bak
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Coverage/Testing
+htmlcov/
+.coverage
+coverage.xml
